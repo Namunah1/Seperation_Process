@@ -1,0 +1,17 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.fullscreen-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f3f4f6; /* light gray like Tailwind's bg-gray-100 */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+}
